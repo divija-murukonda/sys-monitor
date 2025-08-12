@@ -1,0 +1,13 @@
+#!/bin/bash
+
+cd ~/sys-monitor
+
+NOW=$(date +"%Y-%m-%d_%H-%M-%S")
+
+history > "bash_history_$NOW.txt"
+
+top -b -n1 | head -20 > "cpu_ram_$NOW.txt"
+
+git add .
+git commit -m "Log update $NOW"
+git push origin main
