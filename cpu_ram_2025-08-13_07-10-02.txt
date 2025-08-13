@@ -1,0 +1,20 @@
+top - 07:10:02 up  3:06,  1 user,  load average: 0.00, 0.01, 0.03
+Tasks:  32 total,   1 running,  31 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   6904.8 free,    478.6 used,    564.7 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7313.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21836  12388   9316 S   0.0   0.2   0:06.38 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3104   1876   1792 S   0.0   0.0   0:00.03 init
+     53 root      19  -1   66828  15380  14484 S   0.0   0.2   1:02.60 systemd+
+     98 root      20   0   25136   6272   4992 S   0.0   0.1   0:00.55 systemd+
+    159 systemd+  20   0   21452  12800  10624 S   0.0   0.2   0:00.97 systemd+
+    162 systemd+  20   0   91020   7680   6784 S   0.0   0.1   0:01.86 systemd+
+    169 root      20   0    4236   2432   2304 S   0.0   0.0   0:00.06 cron
+    170 message+  20   0    9532   4992   4480 S   0.0   0.1   0:05.04 dbus-da+
+    182 root      20   0   17964   8448   7552 S   0.0   0.1   0:01.73 systemd+
+    185 root      20   0 1756096  13440  10496 S   0.0   0.2   0:00.48 wsl-pro+
+    188 root      20   0    3160   2048   1920 S   0.0   0.0   0:00.00 agetty
+    205 root      20   0    3116   1920   1792 S   0.0   0.0   0:00.00 agetty
